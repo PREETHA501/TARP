@@ -1,0 +1,408 @@
+{
+	"startLocation": 1,
+	"maps": [
+		{
+			"uid": 1,
+			"image": "resources/maps/sampleMap.png",
+			"mapSpots": [
+                {
+					"uid": 1,
+					"tooltip": "Map Spot 1",
+					"mapPosX": 0,
+					"mapPosY": 70
+				},
+				{
+					"uid": 9,
+					"tooltip": "Map Spot 9",
+					"mapPosX": 205,
+					"mapPosY": 41
+				},
+                
+				{
+					"uid": 4,
+					"tooltip": "Map Spot 4",
+					"mapPosX": 230,
+					"mapPosY": 71
+				},
+                {
+					"uid": 5,
+					"tooltip": "Map Spot 5",
+					"mapPosX": 236,
+					"mapPosY": 78
+				},
+                {
+					"uid": 2,
+					"tooltip": "Map Spot 2",
+					"mapPosX": 136,
+					"mapPosY": 78
+				},
+				{
+					"uid": 6,
+					"tooltip": "Map Spot 6",
+					"mapPosX": 236,
+					"mapPosY": 110
+				},
+                {
+					"uid": 3,
+					"tooltip": "Map Spot 3",
+					"mapPosX": 159,
+					"mapPosY": 70
+				},
+                {
+					"uid": 8,
+					"tooltip": "Map Spot 8",
+					"mapPosX": 107,
+					"mapPosY": 41
+				},
+                {
+					"uid": 7,
+					"tooltip": "Map Spot 7",
+					"mapPosX": 250,
+					"mapPosY": 95
+				}
+			]
+		}
+	],
+	"locations": [
+		{
+			"uid": 1,
+			"image": {
+				"default": "resources/panos/default/sample1.jpg",
+				"hq": "resources/panos/hq/sample1.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 2",
+					"posX": -180,
+					"posY": -8,
+					"posZ": 25
+				}
+			],
+			"cameraTargets": {
+				"3": {
+					"lat": 30,
+					"lon": 174
+				},
+				"-1": {
+					"lat": 30,
+					"lon": 174
+				}
+			},
+		  "hotspots": [
+			{
+                "uid": 1,
+				"title": "THE WESTERN GATE",
+                "tooltip": "Information",
+                "text": "It is the main entrance to the Taj Mahal and this gate faces towards Green Shahjahan Garden, Agra cantonment and Agra city. There is a red sand stone edifice outside this gate which is known as Fatehpur Begum another wife of Shah Jahan. It is erected on a beautiful terrace",
+               
+					"posX": -190,
+					"posY": 54,
+			 		"posZ": 20
+            }
+		  ]
+		},
+		{
+			"uid": 2,
+			"image": {
+				"default": "resources/panos/default/sample4.jpg",
+				"hq": "resources/panos/hq/sample4.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 3,
+					"tooltip": "Location 3",
+					"posX": -92,
+					"posY": -40,
+					"posZ": 66
+				}
+			],
+	 		"cameraTargets": {
+				"2": {
+					"lat": 1,
+					"lon": 98
+				},
+				"-1": {
+			 		"lat": 0,
+					"lon": 152
+				}
+			},
+			"hotspots": [
+				{}
+	 		]
+		},
+        {
+			"uid": 3,
+			"image": {
+				"default": "resources/panos/default/sample6.jpg",
+				"hq": "resources/panos/hq/sample6.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 4,
+					"tooltip": "Location 4",
+					"posX": -192,
+					"posY": -20,
+					"posZ": -6
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 1,
+					"lon": -198
+				},
+				"-1": {
+			 		"lat": 1,
+					"lon": 202
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "LOTUS POND",
+					"tooltip": "Information",
+					"text": "This water front is in the shape of a lotus pond in the clear waters of which you can see the magical reflection of Taj Mahal.To make the monument more picturesque, Emperor Shah Jahan installed twenty four fountains on four sides of the waterfront.",
+					"images": [
+						{
+							"figure": "resources/images/lotus.jpg",
+							"caption": ""
+						}
+					],
+					"posX": 82,
+					"posY": -20,
+			 		"posZ": -6
+					}
+	 		]
+		},
+        {
+			"uid": 4,
+			"image": {
+				"default": "resources/panos/default/sample2.jpg",
+				"hq": "resources/panos/hq/sample2.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 5,
+					"tooltip": "Location 5",
+					"posX": 182,
+					"posY": 8,
+					"posZ": 50
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 1,
+					"lon": 18
+				},
+				"-1": {
+			 		"lat": 1,
+					"lon": 18
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Marble Jali Lattice",
+					"tooltip": "Information",
+					"text": "A jali is the term for a perforated stone or latticed screen, usually with an ornamental pattern constructed through the use of calligraphy and geometry,more generally in Islamic architecture.",
+					"images": [
+						{
+							"figure": "resources/images/grid.jpg",
+							"caption": ""
+						}
+					],
+					"posX": 182,
+					"posY": -8,
+			 		"posZ": -70
+					}
+	 		]
+		},
+        {
+			"uid": 5,
+			"image": {
+				"default": "resources/panos/default/sample3.jpg",
+				"hq": "resources/panos/hq/sample3.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 6,
+					"tooltip": "Location 6",
+					"posX": -7,
+					"posY": -75,
+					"posZ": 60
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 1,
+					"lon": 78
+				},
+				"-1": {
+			 		"lat": 1,
+					"lon": 78
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "The Mosque",
+					"tooltip": "Information",
+					"text": "The Mosque is the building located to the west, towards Mecca. It is a red sandstone construction inlaid with white rectangular marble. Each corner of the rectangle is equipped with an octagonal turret, rather narrow, ending with a chaatri (a kind of typically Hindu kiosk). On the roof are 3 domes, one in the center and two on the right and left. ",
+					
+					"posX": 1,
+					"posY": -40,
+			 		"posZ": 60
+					}
+	 		]
+		},
+        {
+			"uid": 6,
+			"image": {
+				"default": "resources/panos/default/sample5.jpg",
+				"hq": "resources/panos/hq/sample5.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 7,
+					"tooltip": "Location 7",
+					"posX": -138,
+					"posY": -3,
+					"posZ": -18
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 1,
+					"lon": 78
+				},
+				"-1": {
+			 		"lat": 1,
+					"lon": 78
+				}
+			},
+			"hotspots": [
+				{
+					}
+	 		]
+		},
+        {
+			"uid": 7,
+			"image": {
+				"default": "resources/panos/default/sample8.jpg",
+				"hq": "resources/panos/hq/sample8.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 8,
+					"tooltip": "Location 8",
+					"posX": -12,
+					"posY": -30,
+					"posZ": -186
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": -2,
+					"lon": 78
+				},
+				"-1": {
+			 		"lat": 14,
+					"lon": 252
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "GUEST HOUSE",
+					"tooltip": "Information",
+					"text": "The Mihman Khana, known as the guest house, is the second building on the terrace and east of the mausoleum. Very close to the mosque, it differs in small details. It is devoid of Mihrab and Minbar, and the floor is made of simple slabs of red sandstone",
+					
+					"posX": -122,
+					"posY": 5,
+			 		"posZ": 136
+					}
+	 		]
+		},
+        {
+			"uid": 8,
+			"image": {
+				"default": "resources/panos/default/sample7.jpg",
+				"hq": "resources/panos/hq/sample7.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 9,
+					"tooltip": "Top View",
+					"posX": -52,
+					"posY": 28,
+					"posZ": -6
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": -2,
+					"lon": 78
+				},
+				"-1": {
+			 		"lat": 14,
+					"lon": 252
+				}
+			},
+			"hotspots": [
+				{}
+	 		]
+		},
+        {
+			"uid": 9,
+			"image": {
+				"default": "resources/panos/default/sample9.jpg",
+				"hq": "resources/panos/hq/sample9.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 1,
+					"tooltip": "Back to start location",
+					"posX": 142,
+					"posY": -68,
+					"posZ": -94
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": -2,
+					"lon": 78
+				},
+				"-1": {
+			 		"lat": 14,
+					"lon": 252
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Tamga",
+					"tooltip": "Information",
+					"text": "A tamga or tamgha is an abstract seal or stamp used by Eurasian nomadic peoples and by cultures influenced by them.",
+					"images": [
+						{
+							"figure": "resources/images/tamgo.jpg",
+							"caption": ""
+						}
+					],
+					"posX": -72,
+					"posY": -30,
+			 		"posZ": -6
+					}
+	 		]
+		}
+	]
+}

@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Virtual Tour</title>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="extLib/three.js"></script>
+
+	<script src="src/panorama.js"></script>
+	<script src="src/location.js"></script>
+	<script src="src/hotspot.js"></script>
+	<script src="src/transition.js"></script>
+
+	<script src="src/lib/threex_fullscreen.js"></script>
+	<script src="src/lib/detector.js"></script>
+	<script src="src/lib/location_loader.js"></script>
+	<script src="src/lib/copy_shader.js"></script>
+	<script src="src/lib/effect_composer.js"></script>
+	<script src="src/lib/render_pass.js"></script>
+	<script src="src/lib/shader_pass.js"></script>
+	<script src="src/lib/mask_pass.js"></script>
+	<script src="src/lib/blur_shader.js"></script>
+
+	<script type="text/javascript">
+		window.onload = function () {
+				startPanorama('resources/json/sample.json', "hq");
+		}
+	</script>
+</head>
+
+<body>
+
+
+<div id="panorama">
+
+
+	<figure id="map">
+		<img id="mapImage" src="" alt="Map"/>
+	</figure>
+    
+
+    <a href="map.html">
+	<figure id="gmap">
+		<img src="resources/icons/gmap.png"/>
+	</figure>
+    </a>
+
+	<figure id="fullscreen">
+		<img src="resources/icons/gui_fullscreen_icon.png" alt="Enter / Leave Fullscreen Mode"/>
+	</figure>
+
+
+	<p id="toolTip"></p>
+
+
+	<article id="infoView">
+		<figure id="infoCloseButton">
+			<img src="resources/icons/close.png" alt="Close information pop-up"
+				 title="Close information pop-up">
+		</figure>
+
+		<h1 id="infoTitle">
+		</h1>
+
+		<figure id="infoImageBox">
+			<img src="" alt="Image" id="infoImage"/>
+			<figcaption id="infoCaption">
+			</figcaption>
+		</figure>
+
+		<p id="infoContent">
+		</p>
+	</article>
+
+</div>
+
+
+<div id="navigationButtonsContainer">
+	<figure id="nav">
+		<img src="resources/icons/navigation.png"/>
+	</figure>
+	<figure class="panoNavButton" id="upNavButton" src="resources/icons/navigation.png" alt="Navigation element">
+		<img src="resources/icons/gui_panup_icon.png" alt="Up"/>
+	</figure>
+	<figure class="panoNavButton" id="downNavButton">
+		<img src="resources/icons/gui_pandown_icon.png" alt="Down"/>
+	</figure>
+	<figure class="panoNavButton" id="leftNavButton">
+		<img src="resources/icons/gui_panleft_icon.png" alt="Left"/>
+	</figure>
+	<figure class="panoNavButton" id="rightNavButton">
+		<img src="resources/icons/gui_panright_icon.png" alt="Right"/>
+	</figure>
+	<figure class="panoNavButton" id="zoomInButton">
+		<img src="resources/icons/gui_zoomin_icon.png" alt="Zoom in"/>
+	</figure>
+	<figure class="panoNavButton" id="zoomOutButton">
+		<img src="resources/icons/gui_zoomout_icon.png" alt="Zoom out"/>
+	</figure>
+</div>
+
+
+</body>
+</html>
